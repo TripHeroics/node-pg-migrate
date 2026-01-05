@@ -1,5 +1,5 @@
 {
-  "name": "ch-node-pg-migrate",
+  "name": "@cyclinghero/node-pg-migrate",
   "version": "7.9.1",
   "description": "PostgreSQL database migration management tool for node.js",
   "scripts": {
@@ -98,7 +98,7 @@
     "templates"
   ],
   "dependencies": {
-    "glob": "~11.0.0",
+    "glob": "~13.0.0",
     "yargs": "~17.7.0"
   },
   "devDependencies": {
@@ -118,10 +118,10 @@
     "dotenv": "16.4.7",
     "dotenv-expand": "12.0.1",
     "eslint": "9.19.0",
-    "eslint-config-prettier": "10.0.1",
+    "eslint-config-prettier": "10.1.8",
     "eslint-define-config": "2.1.0",
     "eslint-gitignore": "0.1.0",
-    "eslint-plugin-prettier": "5.2.3",
+    "eslint-plugin-prettier": "5.5.4",
     "eslint-plugin-unicorn": "56.0.1",
     "jiti": "2.4.2",
     "json5": "2.2.3",
