@@ -1,6 +1,6 @@
 {
-  "name": "ch-node-pg-migrate",
-  "version": "8.0.0-rc.5",
+  "name": "@tripheroics/node-pg-migrate",
+  "version": "8.0.3",
   "description": "PostgreSQL database migration management tool for node.js",
   "scripts": {
     "clean": "rimraf .eslintcache dist pnpm-lock.yaml node_modules",
@@ -44,20 +44,29 @@
     "programable",
     "api"
   ],
-  "homepage": "https://github.com/salsita/node-pg-migrate",
+  "homepage": "https://github.com/tripheroics/node-pg-migrate",
   "bugs": {
-    "url": "https://github.com/salsita/node-pg-migrate/issues"
+    "url": "https://github.com/tripheroics/node-pg-migrate/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/salsita/node-pg-migrate.git"
+    "url": "git+https://github.com/tripheroics/node-pg-migrate.git"
   },
   "license": "MIT",
   "author": "Theo Ephraim",
   "contributors": [
-    "Salsita Software <jando@salsitasoft.com>",
-    "Christopher Quadflieg <chrissi92@hotmail.de>",
-    "Mark Mulder <mark@cyclinghero.cc>"
+    {
+      "name": "Salsita Software",
+      "email": "jando@salsitasoft.com"
+    },
+    {
+      "name": "Christopher Quadflieg",
+      "email": "chrissi92@hotmail.de"
+    },
+    {
+      "name": "Mark Mulder",
+      "email": "mark@tripheroics.com"
+    }
   ],
   "type": "module",
   "exports": {
@@ -79,6 +88,10 @@
   "types": "dist/index.d.ts",
   "bin": {
     "node-pg-migrate": "bin/node-pg-migrate.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
   },
   "files": [
     "bin",
